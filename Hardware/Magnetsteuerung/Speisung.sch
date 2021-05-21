@@ -385,14 +385,14 @@ Wire Wire Line
 Wire Wire Line
 	1150 1750 1050 1750
 $Comp
-L Connector_Generic:Conn_02x08_Odd_Even J1
+L Connector_Generic:Conn_02x10_Odd_Even J1
 U 1 1 60663159
-P 8300 2500
-F 0 "J1" H 8350 3017 50  0000 C CNN
-F 1 "Conn_02x08_Odd_Even" H 8350 2926 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_2x08_P1.27mm_Vertical" H 8300 2500 50  0001 C CNN
-F 3 "~" H 8300 2500 50  0001 C CNN
-	1    8300 2500
+P 8300 2600
+F 0 "J1" H 8350 3117 50  0000 C CNN
+F 1 "Conn_02x08_Odd_Even" H 8350 3026 50  0000 C CNN
+F 2 "MK_Footprints:PinHeader_2x10_P2.54mm_61202022021" H 8300 2600 50  0001 C CNN
+F 3 "~" H 8300 2600 50  0001 C CNN
+	1    8300 2600
 	1    0    0    -1  
 $EndComp
 Text GLabel 8050 2900 0    50   Input ~ 0
@@ -503,4 +503,26 @@ F 3 "~" H 6150 2750 50  0001 C CNN
 	1    6150 2750
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:GND #PWR0216
+U 1 1 6060F53B
+P 8700 3250
+F 0 "#PWR0216" H 8700 3000 50  0001 C CNN
+F 1 "GND" V 8705 3122 50  0000 R CNN
+F 2 "" H 8700 3250 50  0001 C CNN
+F 3 "" H 8700 3250 50  0001 C CNN
+	1    8700 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8600 3000 8700 3000
+Wire Wire Line
+	8700 3000 8700 3100
+Wire Wire Line
+	8600 3100 8700 3100
+Connection ~ 8700 3100
+Wire Wire Line
+	8700 3100 8700 3250
+NoConn ~ 8100 3000
+NoConn ~ 8100 3100
 $EndSCHEMATC
