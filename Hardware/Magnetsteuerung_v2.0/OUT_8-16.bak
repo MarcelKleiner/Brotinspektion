@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Magnetsteuerung-cache
+LIBS:Magnetsteuerung_v2.0-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
