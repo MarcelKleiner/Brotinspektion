@@ -1,5 +1,10 @@
 EESchema Schematic File Version 4
+<<<<<<< HEAD
 EELAYER 30 0
+=======
+LIBS:Magnetsteuerung_v2.1-cache
+EELAYER 29 0
+>>>>>>> d631ef8bacfc618343a5143c704935fd33e6cb22
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -118,17 +123,27 @@ Wire Wire Line
 $Comp
 L Device:CP C3
 U 1 1 609B1169
+<<<<<<< HEAD
 P 9050 1750
 F 0 "C3" H 9168 1796 50  0000 L CNN
 F 1 "330u" H 9168 1705 50  0000 L CNN
 F 2 "Capacitor_SMD:CP_Elec_8x10" H 9088 1600 50  0001 C CNN
 F 3 "~" H 9050 1750 50  0001 C CNN
 	1    9050 1750
+=======
+P 4400 1950
+F 0 "C3" H 4518 1996 50  0000 L CNN
+F 1 "330u" H 4518 1905 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_8x10" H 4438 1800 50  0001 C CNN
+F 3 "~" H 4400 1950 50  0001 C CNN
+	1    4400 1950
+>>>>>>> d631ef8bacfc618343a5143c704935fd33e6cb22
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0105
 U 1 1 609B116F
+<<<<<<< HEAD
 P 9050 1950
 F 0 "#PWR0105" H 9050 1700 50  0001 C CNN
 F 1 "GND" H 9055 1777 50  0000 C CNN
@@ -148,17 +163,47 @@ F 1 "1N5819" V 8495 1829 50  0000 L CNN
 F 2 "Diode_SMD:D_SOD-123" H 8450 1575 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 8450 1750 50  0001 C CNN
 	1    8450 1750
+=======
+P 4400 2150
+F 0 "#PWR0105" H 4400 1900 50  0001 C CNN
+F 1 "GND" H 4405 1977 50  0000 C CNN
+F 2 "" H 4400 2150 50  0001 C CNN
+F 3 "" H 4400 2150 50  0001 C CNN
+	1    4400 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 2150 4400 2100
+$Comp
+L Diode:1N5819 D1
+U 1 1 609B1812
+P 3650 1950
+F 0 "D1" V 3604 2029 50  0000 L CNN
+F 1 "STPS2H100ZF" V 3695 2029 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 3650 1775 50  0001 C CNN
+F 3 "https://www.mouser.ch/datasheet/2/389/dm00321023-1799065.pdf" H 3650 1950 50  0001 C CNN
+	1    3650 1950
+>>>>>>> d631ef8bacfc618343a5143c704935fd33e6cb22
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:L L1
 U 1 1 609B228A
+<<<<<<< HEAD
 P 8750 1550
 F 0 "L1" V 8940 1550 50  0000 C CNN
 F 1 "330u" V 8849 1550 50  0000 C CNN
 F 2 "MK_Footprints:L_Bourns_5050" H 8750 1550 50  0001 C CNN
 F 3 "~" H 8750 1550 50  0001 C CNN
 	1    8750 1550
+=======
+P 4100 1750
+F 0 "L1" V 4290 1750 50  0000 C CNN
+F 1 "330u" V 4199 1750 50  0000 C CNN
+F 2 "MK_Footprints:L_Bourns_5050" H 4100 1750 50  0001 C CNN
+F 3 "~" H 4100 1750 50  0001 C CNN
+	1    4100 1750
+>>>>>>> d631ef8bacfc618343a5143c704935fd33e6cb22
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -175,13 +220,18 @@ $EndComp
 Wire Wire Line
 	8450 1950 8450 1900
 Wire Wire Line
+<<<<<<< HEAD
 	8600 1550 8450 1550
+=======
+	3950 1750 3650 1750
+>>>>>>> d631ef8bacfc618343a5143c704935fd33e6cb22
 Wire Wire Line
 	8450 1600 8450 1550
 Connection ~ 8450 1550
 Wire Wire Line
 	8450 1550 8200 1550
 Wire Wire Line
+<<<<<<< HEAD
 	8900 1550 9050 1550
 Wire Wire Line
 	9050 1550 9050 1600
@@ -191,9 +241,21 @@ Wire Wire Line
 	9450 1550 9450 2300
 Wire Wire Line
 	9450 2300 8300 2300
+=======
+	4250 1750 4400 1750
+Wire Wire Line
+	4400 1750 4400 1800
+Wire Wire Line
+	4400 1750 4800 1750
+Wire Wire Line
+	4800 1750 4800 2500
+Wire Wire Line
+	4800 2500 3500 2500
+>>>>>>> d631ef8bacfc618343a5143c704935fd33e6cb22
 Wire Wire Line
 	8300 2300 8300 1900
 Wire Wire Line
+<<<<<<< HEAD
 	8300 1900 8200 1900
 Connection ~ 9050 1550
 Wire Wire Line
@@ -355,6 +417,24 @@ F 3 "" H 3300 1500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3300 1500 3150 1500
+=======
+	3500 2100 3400 2100
+Connection ~ 4400 1750
+$Comp
+L power:+12V #PWR0107
+U 1 1 609B43ED
+P 4800 1700
+F 0 "#PWR0107" H 4800 1550 50  0001 C CNN
+F 1 "+12V" H 4815 1873 50  0000 C CNN
+F 2 "" H 4800 1700 50  0001 C CNN
+F 3 "" H 4800 1700 50  0001 C CNN
+	1    4800 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 1700 4800 1750
+Connection ~ 4800 1750
+>>>>>>> d631ef8bacfc618343a5143c704935fd33e6cb22
 $Comp
 L Diode:PMEG6010CEH D?
 U 1 1 6065A08A
@@ -448,8 +528,9 @@ Wire Wire Line
 Wire Wire Line
 	2250 3350 2300 3350
 $Comp
-L Mechanical:MountingHole H1
+L Mechanical:MountingHole_Pad H1
 U 1 1 606B125B
+<<<<<<< HEAD
 P 10150 1000
 F 0 "H1" H 10250 1046 50  0000 L CNN
 F 1 "MountingHole" H 10250 955 50  0000 L CNN
@@ -457,21 +538,40 @@ F 2 "MountingHole:MountingHole_4.3mm_M4" H 10150 1000 50  0001 C CNN
 F 3 "~" H 10150 1000 50  0001 C CNN
 	1    10150 1000
 	1    0    0    -1  
+=======
+P 5900 2000
+F 0 "H1" H 6000 2046 50  0000 L CNN
+F 1 "MountingHole" H 6000 1955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 5900 2000 50  0001 C CNN
+F 3 "~" H 5900 2000 50  0001 C CNN
+	1    5900 2000
+	-1   0    0    1   
+>>>>>>> d631ef8bacfc618343a5143c704935fd33e6cb22
 $EndComp
 $Comp
-L Mechanical:MountingHole H2
+L Mechanical:MountingHole_Pad H2
 U 1 1 606B4B80
+<<<<<<< HEAD
 P 10150 1250
 F 0 "H2" H 10250 1296 50  0000 L CNN
 F 1 "MountingHole" H 10250 1205 50  0000 L CNN
 F 2 "MountingHole:MountingHole_4.3mm_M4" H 10150 1250 50  0001 C CNN
 F 3 "~" H 10150 1250 50  0001 C CNN
 	1    10150 1250
+=======
+P 6550 2350
+F 0 "H2" H 6650 2396 50  0000 L CNN
+F 1 "MountingHole" H 6650 2305 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 6550 2350 50  0001 C CNN
+F 3 "~" H 6550 2350 50  0001 C CNN
+	1    6550 2350
+>>>>>>> d631ef8bacfc618343a5143c704935fd33e6cb22
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H3
+L Mechanical:MountingHole_Pad H3
 U 1 1 606B56A7
+<<<<<<< HEAD
 P 10150 1500
 F 0 "H3" H 10250 1546 50  0000 L CNN
 F 1 "MountingHole" H 10250 1455 50  0000 L CNN
@@ -479,16 +579,34 @@ F 2 "MountingHole:MountingHole_4.3mm_M4" H 10150 1500 50  0001 C CNN
 F 3 "~" H 10150 1500 50  0001 C CNN
 	1    10150 1500
 	1    0    0    -1  
+=======
+P 6550 2000
+F 0 "H3" H 6650 2046 50  0000 L CNN
+F 1 "MountingHole" H 6650 1955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 6550 2000 50  0001 C CNN
+F 3 "~" H 6550 2000 50  0001 C CNN
+	1    6550 2000
+	-1   0    0    1   
+>>>>>>> d631ef8bacfc618343a5143c704935fd33e6cb22
 $EndComp
 $Comp
-L Mechanical:MountingHole H4
+L Mechanical:MountingHole_Pad H4
 U 1 1 606B6102
+<<<<<<< HEAD
 P 10150 1750
 F 0 "H4" H 10250 1796 50  0000 L CNN
 F 1 "MountingHole" H 10250 1705 50  0000 L CNN
 F 2 "MountingHole:MountingHole_4.3mm_M4" H 10150 1750 50  0001 C CNN
 F 3 "~" H 10150 1750 50  0001 C CNN
 	1    10150 1750
+=======
+P 5900 2350
+F 0 "H4" H 6000 2396 50  0000 L CNN
+F 1 "MountingHole" H 6000 2305 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 5900 2350 50  0001 C CNN
+F 3 "~" H 5900 2350 50  0001 C CNN
+	1    5900 2350
+>>>>>>> d631ef8bacfc618343a5143c704935fd33e6cb22
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -839,6 +957,7 @@ F 3 "" H 4200 5200 50  0001 C CNN
 	1    4200 5200
 	-1   0    0    -1  
 $EndComp
+<<<<<<< HEAD
 Wire Notes Line
 	600  600  5050 600 
 Wire Notes Line
@@ -890,4 +1009,58 @@ F 3 "" H 9450 1500 50  0001 C CNN
 	1    9450 1500
 	1    0    0    -1  
 $EndComp
+=======
+$Comp
+L power:+48V #PWR0214
+U 1 1 60D08105
+P 5900 1650
+F 0 "#PWR0214" H 5900 1500 50  0001 C CNN
+F 1 "+48V" H 5915 1823 50  0000 C CNN
+F 2 "" H 5900 1650 50  0001 C CNN
+F 3 "" H 5900 1650 50  0001 C CNN
+	1    5900 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 1650 5900 1900
+$Comp
+L power:+48V #PWR0215
+U 1 1 60D0B830
+P 6550 1650
+F 0 "#PWR0215" H 6550 1500 50  0001 C CNN
+F 1 "+48V" H 6565 1823 50  0000 C CNN
+F 2 "" H 6550 1650 50  0001 C CNN
+F 3 "" H 6550 1650 50  0001 C CNN
+	1    6550 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 1650 6550 1900
+$Comp
+L power:GND #PWR0263
+U 1 1 60D0EF35
+P 5900 2600
+F 0 "#PWR0263" H 5900 2350 50  0001 C CNN
+F 1 "GND" V 5905 2472 50  0000 R CNN
+F 2 "" H 5900 2600 50  0001 C CNN
+F 3 "" H 5900 2600 50  0001 C CNN
+	1    5900 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 2450 5900 2600
+$Comp
+L power:GND #PWR0264
+U 1 1 60D12722
+P 6550 2600
+F 0 "#PWR0264" H 6550 2350 50  0001 C CNN
+F 1 "GND" V 6555 2472 50  0000 R CNN
+F 2 "" H 6550 2600 50  0001 C CNN
+F 3 "" H 6550 2600 50  0001 C CNN
+	1    6550 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 2450 6550 2600
+>>>>>>> d631ef8bacfc618343a5143c704935fd33e6cb22
 $EndSCHEMATC
