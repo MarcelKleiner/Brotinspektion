@@ -1,18 +1,14 @@
 EESchema Schematic File Version 4
-<<<<<<< HEAD
-EELAYER 30 0
-=======
 LIBS:Magnetsteuerung_v2.1-cache
 EELAYER 29 0
->>>>>>> d631ef8bacfc618343a5143c704935fd33e6cb22
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 4
-Title "Brotinspektion"
-Date "2021-06-15"
-Rev "C"
-Comp "Pamatech System AG"
+Title ""
+Date ""
+Rev ""
+Comp ""
 Comment1 ""
 Comment2 ""
 Comment3 ""
