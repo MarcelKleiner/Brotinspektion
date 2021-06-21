@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 0.7)
+    (last_trace_width 0.25)
     (user_trace_width 0.4)
     (user_trace_width 0.5)
     (user_trace_width 0.7)
@@ -8051,11 +8051,6 @@
   (gr_line (start 181.05 128.75) (end 181.05 33.25) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 91.25 131.05) (end 178.75 131.05) (layer Edge.Cuts) (width 0.05))
 
-  (via (at 144.4 87.8) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 3) (tstamp 60CE0ADD))
-  (via (at 138.8 87.8) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 3) (tstamp 60CE0ADE))
-  (via (at 141.6 87.8) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 3) (tstamp 60CE0ADF))
-  (via (at 136 87.8) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 3) (tstamp 60CE0A59))
-  (via (at 133 87.8) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 3) (tstamp 60CE0A5A))
   (segment (start 111.7425 88.85) (end 111.205 88.85) (width 0.4) (layer F.Cu) (net 1) (tstamp 60C5FF29))
   (segment (start 109.7 88.36) (end 110.715 88.36) (width 0.4) (layer F.Cu) (net 1) (tstamp 60C5FF2C))
   (segment (start 110.9925 88.6375) (end 110.83 88.475) (width 0.4) (layer F.Cu) (net 1) (tstamp 60C5FF2D))
@@ -8165,6 +8160,11 @@
   (segment (start 123.5 37.9) (end 114.5 37.9) (width 0.7) (layer F.Cu) (net 2))
   (segment (start 112.1 35.5) (end 93.5 35.5) (width 0.7) (layer F.Cu) (net 2))
   (segment (start 114.5 37.9) (end 112.1 35.5) (width 0.7) (layer F.Cu) (net 2))
+  (via (at 144.4 87.8) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 3) (tstamp 60CE0ADD))
+  (via (at 138.8 87.8) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 3) (tstamp 60CE0ADE))
+  (via (at 141.6 87.8) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 3) (tstamp 60CE0ADF))
+  (via (at 136 87.8) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 3) (tstamp 60CE0A59))
+  (via (at 133 87.8) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 3) (tstamp 60CE0A5A))
   (segment (start 157.16 106.32) (end 157.05 106.43) (width 0.4) (layer F.Cu) (net 3) (tstamp 60C6F6F1))
   (segment (start 160.2 110.02) (end 160.2 108.68) (width 0.4) (layer F.Cu) (net 3) (tstamp 60C6F6F4))
   (segment (start 155.4025 106.32) (end 157.16 106.32) (width 0.4) (layer F.Cu) (net 3) (tstamp 60C6F6F5))
