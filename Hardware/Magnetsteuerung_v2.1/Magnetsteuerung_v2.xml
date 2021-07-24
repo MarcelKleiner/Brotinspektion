@@ -1,0 +1,2665 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\marce\Documents\Git_repos\Brotinspektion\Hardware\Magnetsteuerung_v2.1\Magnetsteuerung_v2.1.sch</source>
+    <date>24.07.2021 05:02:57</date>
+    <tool>Eeschema (5.1.0)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Magnetsteuerung_v2.1.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Speisung/" tstamps="/602A7DDC/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Speisung.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/OUT_1-8/" tstamps="/602A90B4/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>OUT_1-8.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/OUT_8-16/" tstamps="/602AA37E/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>OUT_8-16.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>TL2575</value>
+      <footprint>Package_TO_SOT_SMD:TO-263-5_TabPin3</footprint>
+      <libsource lib="MK_Supply" part="TL2575" description=""/>
+      <sheetpath names="/Speisung/" tstamps="/602A7DDC/"/>
+      <tstamp>609AE302</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Speisung/" tstamps="/602A7DDC/"/>
+      <tstamp>609AEFFF</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100u</value>
+      <footprint>Capacitor_SMD:CP_Elec_10x10</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/Speisung/" tstamps="/602A7DDC/"/>
+      <tstamp>609AFCED</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>330u</value>
+      <footprint>Capacitor_SMD:CP_Elec_8x10</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/Speisung/" tstamps="/602A7DDC/"/>
+      <tstamp>609B1169</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>STPS2H100ZF</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.mouser.ch/datasheet/2/389/dm00321023-1799065.pdf</datasheet>
+      <libsource lib="Diode" part="1N5819" description="40V 1A Schottky Barrier Rectifier Diode, DO-41"/>
+      <sheetpath names="/Speisung/" tstamps="/602A7DDC/"/>
+      <tstamp>609B1812</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>330u</value>
+      <footprint>MK_Footprints:L_Bourns_5050</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <sheetpath names="/Speisung/" tstamps="/602A7DDC/"/>
+      <tstamp>609B228A</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_02x08_Odd_Even</value>
+      <footprint>MK_Footprints:PinHeader_2x10_P2.54mm_61202022021</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x10_Odd_Even" description="Generic connector, double row, 02x10, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Speisung/" tstamps="/602A7DDC/"/>
+      <tstamp>60663159</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_4.3mm_M4_Pad_Via</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/Speisung/" tstamps="/602A7DDC/"/>
+      <tstamp>606B125B</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_4.3mm_M4_Pad_Via</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/Speisung/" tstamps="/602A7DDC/"/>
+      <tstamp>606B4B80</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_4.3mm_M4_Pad_Via</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/Speisung/" tstamps="/602A7DDC/"/>
+      <tstamp>606B56A7</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_4.3mm_M4_Pad_Via</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/Speisung/" tstamps="/602A7DDC/"/>
+      <tstamp>606B6102</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x16</value>
+      <footprint>Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_16-G-5,08_1x16_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x16" description="Generic connector, single row, 01x16, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Speisung/" tstamps="/602A7DDC/"/>
+      <tstamp>60C50C9E</tstamp>
+    </comp>
+    <comp ref="J9">
+      <value>Conn_01x16</value>
+      <footprint>Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_16-G-5,08_1x16_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x16" description="Generic connector, single row, 01x16, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Speisung/" tstamps="/602A7DDC/"/>
+      <tstamp>60C52C85</tstamp>
+    </comp>
+    <comp ref="C53">
+      <value>100u</value>
+      <footprint>Capacitor_SMD:CP_Elec_10x10</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/Speisung/" tstamps="/602A7DDC/"/>
+      <tstamp>60DE2063</tstamp>
+    </comp>
+    <comp ref="C52">
+      <value>100u</value>
+      <footprint>Capacitor_SMD:CP_Elec_10x10</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/Speisung/" tstamps="/602A7DDC/"/>
+      <tstamp>60DF1664</tstamp>
+    </comp>
+    <comp ref="C55">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Speisung/" tstamps="/602A7DDC/"/>
+      <tstamp>60E10CA7</tstamp>
+    </comp>
+    <comp ref="R67">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>60E1639F</tstamp>
+    </comp>
+    <comp ref="R66">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>60DE002E</tstamp>
+    </comp>
+    <comp ref="R65">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>60B960AE</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>60AC5312</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>60CCC184</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>60CCC17E</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>60C1C641</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>60C1C63B</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>60AC6C78</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>MCP1416R</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/20002092F.pdf</datasheet>
+      <libsource lib="Driver_FET" part="MCP1416R" description="1.5A High speed power MOSFET driver with non-inverting output, SOT-23-5"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>607D54B0</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>MCP1416R</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/20002092F.pdf</datasheet>
+      <libsource lib="Driver_FET" part="MCP1416R" description="1.5A High speed power MOSFET driver with non-inverting output, SOT-23-5"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>607AEACE</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>MCP1416R</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/20002092F.pdf</datasheet>
+      <libsource lib="Driver_FET" part="MCP1416R" description="1.5A High speed power MOSFET driver with non-inverting output, SOT-23-5"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>607426D2</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>PMEG6010CEH</value>
+      <footprint>MK_Footprints:SOD_128</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/PMEG6010CEH_PMEG6010CEJ.pdf</datasheet>
+      <libsource lib="Diode" part="PMEG6010CEH" description="60V 1A very low Vf MEGA Schottky barrier rectifier, SOD-123"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>6063B211</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>PMEG6010CEH</value>
+      <footprint>MK_Footprints:SOD_128</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/PMEG6010CEH_PMEG6010CEJ.pdf</datasheet>
+      <libsource lib="Diode" part="PMEG6010CEH" description="60V 1A very low Vf MEGA Schottky barrier rectifier, SOD-123"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>60605D30</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>605573BD</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>605573AB</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>605573A5</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>60557397</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/DMN10H220LK3.pdf</datasheet>
+      <fields>
+        <field name="Hersteller Nr.">DMN10H220LK3-13</field>
+        <field name="Mouser Nr.">621-DMN10H220LK3-13</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GDS" description="N-MOSFET transistor, gate/drain/source"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>60557366</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>6050646A</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>60506458</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>60506452</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>60506444</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/DMN10H220LK3.pdf</datasheet>
+      <fields>
+        <field name="Hersteller Nr.">DMN10H220LK3-13</field>
+        <field name="Mouser Nr.">621-DMN10H220LK3-13</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GDS" description="N-MOSFET transistor, gate/drain/source"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>60506413</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>60313F04</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>602AC23A</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>6029DD74</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>60389984</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>PMEG6010CEH</value>
+      <footprint>MK_Footprints:D_SOD_128_2</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/PMEG6010CEH_PMEG6010CEJ.pdf</datasheet>
+      <libsource lib="Diode" part="PMEG6010CEH" description="60V 1A very low Vf MEGA Schottky barrier rectifier, SOD-123"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>6038992F</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/DMN10H220LK3.pdf</datasheet>
+      <fields>
+        <field name="Hersteller Nr.">DMN10H220LK3-13</field>
+        <field name="Mouser Nr.">621-DMN10H220LK3-13</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GDS" description="N-MOSFET transistor, gate/drain/source"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>60389929</tstamp>
+    </comp>
+    <comp ref="R70">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>60E314C1</tstamp>
+    </comp>
+    <comp ref="R69">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>60DC4E57</tstamp>
+    </comp>
+    <comp ref="R68">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>60CE9227</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>60D165B9</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>60D165B3</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>60C5B967</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>60C5B961</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>60B7107D</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>60B71077</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>MCP1416R</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/20002092F.pdf</datasheet>
+      <libsource lib="Driver_FET" part="MCP1416R" description="1.5A High speed power MOSFET driver with non-inverting output, SOT-23-5"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>60907E11</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>MCP1416R</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/20002092F.pdf</datasheet>
+      <libsource lib="Driver_FET" part="MCP1416R" description="1.5A High speed power MOSFET driver with non-inverting output, SOT-23-5"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>608B072A</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>MCP1416R</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/20002092F.pdf</datasheet>
+      <libsource lib="Driver_FET" part="MCP1416R" description="1.5A High speed power MOSFET driver with non-inverting output, SOT-23-5"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>608200C0</tstamp>
+    </comp>
+    <comp ref="D16">
+      <value>PMEG6010CEH</value>
+      <footprint>MK_Footprints:SOD_128</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/PMEG6010CEH_PMEG6010CEJ.pdf</datasheet>
+      <libsource lib="Diode" part="PMEG6010CEH" description="60V 1A very low Vf MEGA Schottky barrier rectifier, SOD-123"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>6064CD71</tstamp>
+    </comp>
+    <comp ref="D15">
+      <value>PMEG6010CEH</value>
+      <footprint>MK_Footprints:SOD_128</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/PMEG6010CEH_PMEG6010CEJ.pdf</datasheet>
+      <libsource lib="Diode" part="PMEG6010CEH" description="60V 1A very low Vf MEGA Schottky barrier rectifier, SOD-123"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>606180A6</tstamp>
+    </comp>
+    <comp ref="D13">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>60557440</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>6055742E</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>60557428</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>6055741A</tstamp>
+    </comp>
+    <comp ref="Q6">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/DMN10H220LK3.pdf</datasheet>
+      <fields>
+        <field name="Hersteller Nr.">DMN10H220LK3-13</field>
+        <field name="Mouser Nr.">621-DMN10H220LK3-13</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GDS" description="N-MOSFET transistor, gate/drain/source"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>605573E9</tstamp>
+    </comp>
+    <comp ref="D12">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>605064F3</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>605064E1</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>605064DB</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>605064CD</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/DMN10H220LK3.pdf</datasheet>
+      <fields>
+        <field name="Hersteller Nr.">DMN10H220LK3-13</field>
+        <field name="Mouser Nr.">621-DMN10H220LK3-13</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GDS" description="N-MOSFET transistor, gate/drain/source"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>6050649C</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>604C0BF3</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>604C0BE1</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>604C0BDB</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>604C0BCD</tstamp>
+    </comp>
+    <comp ref="D14">
+      <value>PMEG6010CEH</value>
+      <footprint>MK_Footprints:SOD_128</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/PMEG6010CEH_PMEG6010CEJ.pdf</datasheet>
+      <libsource lib="Diode" part="PMEG6010CEH" description="60V 1A very low Vf MEGA Schottky barrier rectifier, SOD-123"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>604C0BA2</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/DMN10H220LK3.pdf</datasheet>
+      <fields>
+        <field name="Hersteller Nr.">DMN10H220LK3-13</field>
+        <field name="Mouser Nr.">621-DMN10H220LK3-13</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GDS" description="N-MOSFET transistor, gate/drain/source"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>604C0B9C</tstamp>
+    </comp>
+    <comp ref="D20">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>604D81CD</tstamp>
+    </comp>
+    <comp ref="R71">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>60E4C5FC</tstamp>
+    </comp>
+    <comp ref="R72">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>60DFB23F</tstamp>
+    </comp>
+    <comp ref="C26">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>60C9E1D8</tstamp>
+    </comp>
+    <comp ref="C27">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>60C9E1D2</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>60BCE204</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>60BCE1FE</tstamp>
+    </comp>
+    <comp ref="U9">
+      <value>MCP1416R</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/20002092F.pdf</datasheet>
+      <libsource lib="Driver_FET" part="MCP1416R" description="1.5A High speed power MOSFET driver with non-inverting output, SOT-23-5"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>609D071E</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>MCP1416R</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/20002092F.pdf</datasheet>
+      <libsource lib="Driver_FET" part="MCP1416R" description="1.5A High speed power MOSFET driver with non-inverting output, SOT-23-5"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>6095DEC2</tstamp>
+    </comp>
+    <comp ref="D23">
+      <value>PMEG6010CEH</value>
+      <footprint>MK_Footprints:SOD_128</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/PMEG6010CEH_PMEG6010CEJ.pdf</datasheet>
+      <libsource lib="Diode" part="PMEG6010CEH" description="60V 1A very low Vf MEGA Schottky barrier rectifier, SOD-123"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>606298D7</tstamp>
+    </comp>
+    <comp ref="D21">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>6050657C</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>6050656A</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>60506564</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>60506556</tstamp>
+    </comp>
+    <comp ref="Q8">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/DMN10H220LK3.pdf</datasheet>
+      <fields>
+        <field name="Hersteller Nr.">DMN10H220LK3-13</field>
+        <field name="Mouser Nr.">621-DMN10H220LK3-13</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GDS" description="N-MOSFET transistor, gate/drain/source"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>60506525</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>604D81BB</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>604D81B5</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>604D81A7</tstamp>
+    </comp>
+    <comp ref="Q7">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/DMN10H220LK3.pdf</datasheet>
+      <fields>
+        <field name="Hersteller Nr.">DMN10H220LK3-13</field>
+        <field name="Mouser Nr.">621-DMN10H220LK3-13</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GDS" description="N-MOSFET transistor, gate/drain/source"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>604D8176</tstamp>
+    </comp>
+    <comp ref="D22">
+      <value>PMEG6010CEH</value>
+      <footprint>MK_Footprints:SOD_128</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/PMEG6010CEH_PMEG6010CEJ.pdf</datasheet>
+      <libsource lib="Diode" part="PMEG6010CEH" description="60V 1A very low Vf MEGA Schottky barrier rectifier, SOD-123"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>605F44E1</tstamp>
+    </comp>
+    <comp ref="C44">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>612F04E9</tstamp>
+    </comp>
+    <comp ref="C47">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>6133C954</tstamp>
+    </comp>
+    <comp ref="C50">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>6134B5E6</tstamp>
+    </comp>
+    <comp ref="C51">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>6135A629</tstamp>
+    </comp>
+    <comp ref="C48">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>61369BCA</tstamp>
+    </comp>
+    <comp ref="C45">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>613793A3</tstamp>
+    </comp>
+    <comp ref="C46">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>61389187</tstamp>
+    </comp>
+    <comp ref="C49">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/OUT_1-8/" tstamps="/602A90B4/"/>
+      <tstamp>613BABF9</tstamp>
+    </comp>
+    <comp ref="D29">
+      <value>PMEG6010CEH</value>
+      <footprint>MK_Footprints:D_SOD_128_2</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/PMEG6010CEH_PMEG6010CEJ.pdf</datasheet>
+      <libsource lib="Diode" part="PMEG6010CEH" description="60V 1A very low Vf MEGA Schottky barrier rectifier, SOD-123"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>60468062</tstamp>
+    </comp>
+    <comp ref="R39">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>6046808D</tstamp>
+    </comp>
+    <comp ref="R34">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>604680D5</tstamp>
+    </comp>
+    <comp ref="R33">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>604680DB</tstamp>
+    </comp>
+    <comp ref="D26">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>604680ED</tstamp>
+    </comp>
+    <comp ref="Q12">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/DMN10H220LK3.pdf</datasheet>
+      <fields>
+        <field name="Hersteller Nr.">DMN10H220LK3-13</field>
+        <field name="Mouser Nr.">621-DMN10H220LK3-13</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GDS" description="N-MOSFET transistor, gate/drain/source"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>6046811F</tstamp>
+    </comp>
+    <comp ref="D38">
+      <value>PMEG6010CEH</value>
+      <footprint>MK_Footprints:D_SOD_128_2</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/PMEG6010CEH_PMEG6010CEJ.pdf</datasheet>
+      <libsource lib="Diode" part="PMEG6010CEH" description="60V 1A very low Vf MEGA Schottky barrier rectifier, SOD-123"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>60468125</tstamp>
+    </comp>
+    <comp ref="R51">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>6046814A</tstamp>
+    </comp>
+    <comp ref="R46">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>60468158</tstamp>
+    </comp>
+    <comp ref="R45">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>6046815E</tstamp>
+    </comp>
+    <comp ref="D35">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>60468170</tstamp>
+    </comp>
+    <comp ref="Q15">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/DMN10H220LK3.pdf</datasheet>
+      <fields>
+        <field name="Hersteller Nr.">DMN10H220LK3-13</field>
+        <field name="Mouser Nr.">621-DMN10H220LK3-13</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GDS" description="N-MOSFET transistor, gate/drain/source"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>604681A2</tstamp>
+    </comp>
+    <comp ref="R61">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>604681CD</tstamp>
+    </comp>
+    <comp ref="R58">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>604681DB</tstamp>
+    </comp>
+    <comp ref="R57">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>604681E1</tstamp>
+    </comp>
+    <comp ref="D44">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>604681F3</tstamp>
+    </comp>
+    <comp ref="Q10">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/DMN10H220LK3.pdf</datasheet>
+      <fields>
+        <field name="Hersteller Nr.">DMN10H220LK3-13</field>
+        <field name="Mouser Nr.">621-DMN10H220LK3-13</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GDS" description="N-MOSFET transistor, gate/drain/source"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>60468225</tstamp>
+    </comp>
+    <comp ref="R40">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>60468250</tstamp>
+    </comp>
+    <comp ref="R36">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>6046825E</tstamp>
+    </comp>
+    <comp ref="R35">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>60468264</tstamp>
+    </comp>
+    <comp ref="D27">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>60468276</tstamp>
+    </comp>
+    <comp ref="Q13">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/DMN10H220LK3.pdf</datasheet>
+      <fields>
+        <field name="Hersteller Nr.">DMN10H220LK3-13</field>
+        <field name="Mouser Nr.">621-DMN10H220LK3-13</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GDS" description="N-MOSFET transistor, gate/drain/source"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>604682A8</tstamp>
+    </comp>
+    <comp ref="R52">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>604682D3</tstamp>
+    </comp>
+    <comp ref="R48">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>604682E1</tstamp>
+    </comp>
+    <comp ref="R47">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>604682E7</tstamp>
+    </comp>
+    <comp ref="D36">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>604682F9</tstamp>
+    </comp>
+    <comp ref="Q16">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/DMN10H220LK3.pdf</datasheet>
+      <fields>
+        <field name="Hersteller Nr.">DMN10H220LK3-13</field>
+        <field name="Mouser Nr.">621-DMN10H220LK3-13</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GDS" description="N-MOSFET transistor, gate/drain/source"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>6046832B</tstamp>
+    </comp>
+    <comp ref="R62">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>60468356</tstamp>
+    </comp>
+    <comp ref="R60">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>60468364</tstamp>
+    </comp>
+    <comp ref="R59">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>6046836A</tstamp>
+    </comp>
+    <comp ref="D45">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>6046837C</tstamp>
+    </comp>
+    <comp ref="Q11">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/DMN10H220LK3.pdf</datasheet>
+      <fields>
+        <field name="Hersteller Nr.">DMN10H220LK3-13</field>
+        <field name="Mouser Nr.">621-DMN10H220LK3-13</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GDS" description="N-MOSFET transistor, gate/drain/source"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>604683AE</tstamp>
+    </comp>
+    <comp ref="R41">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>604683D9</tstamp>
+    </comp>
+    <comp ref="R38">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>604683E7</tstamp>
+    </comp>
+    <comp ref="R37">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>604683ED</tstamp>
+    </comp>
+    <comp ref="D28">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>604683FF</tstamp>
+    </comp>
+    <comp ref="Q14">
+      <value>Q_NMOS_GSD</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/DMN10H220LK3.pdf</datasheet>
+      <fields>
+        <field name="Hersteller Nr.">DMN10H220LK3-13</field>
+        <field name="Mouser Nr.">621-DMN10H220LK3-13</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GDS" description="N-MOSFET transistor, gate/drain/source"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>6046842A</tstamp>
+    </comp>
+    <comp ref="R53">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>60468455</tstamp>
+    </comp>
+    <comp ref="R50">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>60468463</tstamp>
+    </comp>
+    <comp ref="R49">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>60468469</tstamp>
+    </comp>
+    <comp ref="D37">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>6046847B</tstamp>
+    </comp>
+    <comp ref="D46">
+      <value>PMEG6010CEH</value>
+      <footprint>MK_Footprints:D_SOD_128_2</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/PMEG6010CEH_PMEG6010CEJ.pdf</datasheet>
+      <libsource lib="Diode" part="PMEG6010CEH" description="60V 1A very low Vf MEGA Schottky barrier rectifier, SOD-123"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>604684B4</tstamp>
+    </comp>
+    <comp ref="D30">
+      <value>PMEG6010CEH</value>
+      <footprint>MK_Footprints:D_SOD_128_2</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/PMEG6010CEH_PMEG6010CEJ.pdf</datasheet>
+      <libsource lib="Diode" part="PMEG6010CEH" description="60V 1A very low Vf MEGA Schottky barrier rectifier, SOD-123"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>604684BA</tstamp>
+    </comp>
+    <comp ref="D39">
+      <value>PMEG6010CEH</value>
+      <footprint>MK_Footprints:D_SOD_128_2</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/PMEG6010CEH_PMEG6010CEJ.pdf</datasheet>
+      <libsource lib="Diode" part="PMEG6010CEH" description="60V 1A very low Vf MEGA Schottky barrier rectifier, SOD-123"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>604684C0</tstamp>
+    </comp>
+    <comp ref="D47">
+      <value>PMEG6010CEH</value>
+      <footprint>MK_Footprints:D_SOD_128_2</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/PMEG6010CEH_PMEG6010CEJ.pdf</datasheet>
+      <libsource lib="Diode" part="PMEG6010CEH" description="60V 1A very low Vf MEGA Schottky barrier rectifier, SOD-123"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>604684C6</tstamp>
+    </comp>
+    <comp ref="D31">
+      <value>PMEG6010CEH</value>
+      <footprint>MK_Footprints:D_SOD_128_2</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/PMEG6010CEH_PMEG6010CEJ.pdf</datasheet>
+      <libsource lib="Diode" part="PMEG6010CEH" description="60V 1A very low Vf MEGA Schottky barrier rectifier, SOD-123"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>604684CC</tstamp>
+    </comp>
+    <comp ref="D40">
+      <value>PMEG6010CEH</value>
+      <footprint>MK_Footprints:D_SOD_128_2</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/PMEG6010CEH_PMEG6010CEJ.pdf</datasheet>
+      <libsource lib="Diode" part="PMEG6010CEH" description="60V 1A very low Vf MEGA Schottky barrier rectifier, SOD-123"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>604684D2</tstamp>
+    </comp>
+    <comp ref="U10">
+      <value>MCP1416R</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/20002092F.pdf</datasheet>
+      <libsource lib="Driver_FET" part="MCP1416R" description="1.5A High speed power MOSFET driver with non-inverting output, SOT-23-5"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>60A73147</tstamp>
+    </comp>
+    <comp ref="U11">
+      <value>MCP1416R</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/20002092F.pdf</datasheet>
+      <libsource lib="Driver_FET" part="MCP1416R" description="1.5A High speed power MOSFET driver with non-inverting output, SOT-23-5"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>60A7EF57</tstamp>
+    </comp>
+    <comp ref="U12">
+      <value>MCP1416R</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/20002092F.pdf</datasheet>
+      <libsource lib="Driver_FET" part="MCP1416R" description="1.5A High speed power MOSFET driver with non-inverting output, SOT-23-5"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>60A8B9AB</tstamp>
+    </comp>
+    <comp ref="U13">
+      <value>MCP1416R</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/20002092F.pdf</datasheet>
+      <libsource lib="Driver_FET" part="MCP1416R" description="1.5A High speed power MOSFET driver with non-inverting output, SOT-23-5"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>60A9A415</tstamp>
+    </comp>
+    <comp ref="U14">
+      <value>MCP1416R</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/20002092F.pdf</datasheet>
+      <libsource lib="Driver_FET" part="MCP1416R" description="1.5A High speed power MOSFET driver with non-inverting output, SOT-23-5"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>60A9A429</tstamp>
+    </comp>
+    <comp ref="U15">
+      <value>MCP1416R</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/20002092F.pdf</datasheet>
+      <libsource lib="Driver_FET" part="MCP1416R" description="1.5A High speed power MOSFET driver with non-inverting output, SOT-23-5"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>60A9A43D</tstamp>
+    </comp>
+    <comp ref="U16">
+      <value>MCP1416R</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/20002092F.pdf</datasheet>
+      <libsource lib="Driver_FET" part="MCP1416R" description="1.5A High speed power MOSFET driver with non-inverting output, SOT-23-5"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>60AAA1CB</tstamp>
+    </comp>
+    <comp ref="U17">
+      <value>MCP1416R</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/20002092F.pdf</datasheet>
+      <libsource lib="Driver_FET" part="MCP1416R" description="1.5A High speed power MOSFET driver with non-inverting output, SOT-23-5"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>60AAA1DF</tstamp>
+    </comp>
+    <comp ref="Q17">
+      <value>Q_NMOS_GDS</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_NMOS_GDS" description="N-MOSFET transistor, gate/drain/source"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>60836B83</tstamp>
+    </comp>
+    <comp ref="C29">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>60E1D084</tstamp>
+    </comp>
+    <comp ref="C28">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>60E1D08A</tstamp>
+    </comp>
+    <comp ref="C35">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>60E53400</tstamp>
+    </comp>
+    <comp ref="C34">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>60E53406</tstamp>
+    </comp>
+    <comp ref="C41">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>60E8DC99</tstamp>
+    </comp>
+    <comp ref="C40">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>60E8DC9F</tstamp>
+    </comp>
+    <comp ref="C31">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>60ECB6C5</tstamp>
+    </comp>
+    <comp ref="C30">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>60ECB6CB</tstamp>
+    </comp>
+    <comp ref="C39">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>60F0C2AB</tstamp>
+    </comp>
+    <comp ref="C38">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>60F0C2B1</tstamp>
+    </comp>
+    <comp ref="C43">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>60F66DE7</tstamp>
+    </comp>
+    <comp ref="C42">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>60F66DED</tstamp>
+    </comp>
+    <comp ref="C33">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>60FAE392</tstamp>
+    </comp>
+    <comp ref="C32">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>60FAE398</tstamp>
+    </comp>
+    <comp ref="C37">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>60FFA23E</tstamp>
+    </comp>
+    <comp ref="C36">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>60FFA244</tstamp>
+    </comp>
+    <comp ref="R73">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>60C97ECA</tstamp>
+    </comp>
+    <comp ref="R74">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>60CB2781</tstamp>
+    </comp>
+    <comp ref="R76">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>60CCCED3</tstamp>
+    </comp>
+    <comp ref="R79">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>60CE76C4</tstamp>
+    </comp>
+    <comp ref="R75">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>60DEF643</tstamp>
+    </comp>
+    <comp ref="R78">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>60E0A0FD</tstamp>
+    </comp>
+    <comp ref="R77">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>60E24BF6</tstamp>
+    </comp>
+    <comp ref="R80">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>60E3F674</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>60F062B2</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>60F14A2E</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>60F23AD5</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>60F330A4</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>60F42E6F</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>60F5385E</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>60F644D2</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/OUT_8-16/" tstamps="/602AA37E/"/>
+      <tstamp>60F75552</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x16">
+      <description>Generic connector, single row, 01x16, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x16</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x10_Odd_Even">
+      <description>Generic connector, double row, 02x10, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x10_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_NMOS_GDS">
+      <description>N-MOSFET transistor, gate/drain/source</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NMOS_GDS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="BAT48ZFILM">
+      <aliases>
+        <alias>MBR0520LT</alias>
+        <alias>MBR0520</alias>
+        <alias>MBR0530</alias>
+        <alias>MBR0540</alias>
+        <alias>MBR0550</alias>
+        <alias>MBR0560</alias>
+        <alias>MBR0570</alias>
+        <alias>MBR0580</alias>
+        <alias>BAT42W-V</alias>
+        <alias>BAT43W-V</alias>
+        <alias>PMEG6010CEH</alias>
+      </aliases>
+      <description>40V 0.35A Small Signal Schottky Diode, SOD-123</description>
+      <docs>www.st.com/resource/en/datasheet/bat48.pdf</docs>
+      <footprints>
+        <fp>D*SOD?123*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">BAT48ZFILM</field>
+        <field name="Footprint">Diode_SMD:D_SOD-123</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="SB120">
+      <aliases>
+        <alias>SB130</alias>
+        <alias>SB140</alias>
+        <alias>SB150</alias>
+        <alias>SB160</alias>
+        <alias>1N5817</alias>
+        <alias>1N5818</alias>
+        <alias>1N5819</alias>
+      </aliases>
+      <description>20V 1A Schottky Barrier Rectifier Diode, DO-41</description>
+      <docs>http://www.diodes.com/_files/datasheets/ds23022.pdf</docs>
+      <footprints>
+        <fp>D*DO?41*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">SB120</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Driver_FET" part="MCP1416R">
+      <description>1.5A High speed power MOSFET driver with non-inverting output, SOT-23-5</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/20002092F.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP1416R</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="NotConnected"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="IN" type="input"/>
+        <pin num="4" name="OUT" type="output"/>
+        <pin num="5" name="Vdd" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="MK_Supply" part="TL2575">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TL2575</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="power_in"/>
+        <pin num="2" name="OUTPUT" type="power_out"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="FEEDBACK" type="input"/>
+        <pin num="5" name="~ON~/OFF" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Diode">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Diode.lib</uri>
+    </library>
+    <library logical="Driver_FET">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Driver_FET.lib</uri>
+    </library>
+    <library logical="MK_Supply">
+      <uri>C:/Users/marce/OneDrive/KiCAD/GlobalLibrary/MK_Supply/MK_Supply.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Mechanical.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="OUT_7">
+      <node ref="Q2" pin="2"/>
+      <node ref="J3" pin="4"/>
+      <node ref="D8" pin="2"/>
+    </net>
+    <net code="2" name="OUT_8">
+      <node ref="J3" pin="2"/>
+      <node ref="Q6" pin="2"/>
+      <node ref="D16" pin="2"/>
+    </net>
+    <net code="3" name="+48V">
+      <node ref="C4" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="D23" pin="1"/>
+      <node ref="D38" pin="1"/>
+      <node ref="J3" pin="9"/>
+      <node ref="H3" pin="1"/>
+      <node ref="J3" pin="15"/>
+      <node ref="J3" pin="1"/>
+      <node ref="J3" pin="11"/>
+      <node ref="J3" pin="13"/>
+      <node ref="C2" pin="1"/>
+      <node ref="J9" pin="14"/>
+      <node ref="J9" pin="16"/>
+      <node ref="D29" pin="1"/>
+      <node ref="J9" pin="2"/>
+      <node ref="C1" pin="1"/>
+      <node ref="H1" pin="1"/>
+      <node ref="J3" pin="3"/>
+      <node ref="J3" pin="5"/>
+      <node ref="J3" pin="7"/>
+      <node ref="J9" pin="10"/>
+      <node ref="J9" pin="12"/>
+      <node ref="C46" pin="2"/>
+      <node ref="C45" pin="2"/>
+      <node ref="D4" pin="1"/>
+      <node ref="D16" pin="1"/>
+      <node ref="D15" pin="1"/>
+      <node ref="D7" pin="1"/>
+      <node ref="D8" pin="1"/>
+      <node ref="D22" pin="1"/>
+      <node ref="C51" pin="2"/>
+      <node ref="C47" pin="2"/>
+      <node ref="C50" pin="2"/>
+      <node ref="D14" pin="1"/>
+      <node ref="C15" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C49" pin="2"/>
+      <node ref="C44" pin="2"/>
+      <node ref="C48" pin="2"/>
+      <node ref="D40" pin="1"/>
+      <node ref="D47" pin="1"/>
+      <node ref="C52" pin="1"/>
+      <node ref="C53" pin="1"/>
+      <node ref="C55" pin="1"/>
+      <node ref="U1" pin="1"/>
+      <node ref="D46" pin="1"/>
+      <node ref="D30" pin="1"/>
+      <node ref="D39" pin="1"/>
+      <node ref="J9" pin="8"/>
+      <node ref="D31" pin="1"/>
+      <node ref="J9" pin="6"/>
+      <node ref="J9" pin="4"/>
+    </net>
+    <net code="4" name="OUT_6">
+      <node ref="D23" pin="2"/>
+      <node ref="Q8" pin="2"/>
+      <node ref="J3" pin="6"/>
+    </net>
+    <net code="5" name="OUT_14">
+      <node ref="J9" pin="5"/>
+      <node ref="Q16" pin="2"/>
+      <node ref="D47" pin="2"/>
+    </net>
+    <net code="6" name="OUT_15">
+      <node ref="J9" pin="3"/>
+      <node ref="D31" pin="2"/>
+      <node ref="Q11" pin="2"/>
+    </net>
+    <net code="7" name="OUT_16">
+      <node ref="D40" pin="2"/>
+      <node ref="Q14" pin="2"/>
+      <node ref="J9" pin="1"/>
+    </net>
+    <net code="8" name="OUT_1">
+      <node ref="Q3" pin="2"/>
+      <node ref="D4" pin="2"/>
+      <node ref="J3" pin="16"/>
+    </net>
+    <net code="9" name="OUT_2">
+      <node ref="J3" pin="14"/>
+      <node ref="Q4" pin="2"/>
+      <node ref="D14" pin="2"/>
+    </net>
+    <net code="10" name="OUT_4">
+      <node ref="Q1" pin="2"/>
+      <node ref="J3" pin="10"/>
+      <node ref="D7" pin="2"/>
+    </net>
+    <net code="11" name="OUT_5">
+      <node ref="D15" pin="2"/>
+      <node ref="J3" pin="8"/>
+      <node ref="Q5" pin="2"/>
+    </net>
+    <net code="12" name="OUT_3">
+      <node ref="Q7" pin="2"/>
+      <node ref="J3" pin="12"/>
+      <node ref="D22" pin="2"/>
+    </net>
+    <net code="13" name="GND">
+      <node ref="C23" pin="2"/>
+      <node ref="C32" pin="2"/>
+      <node ref="C22" pin="2"/>
+      <node ref="C37" pin="2"/>
+      <node ref="C36" pin="2"/>
+      <node ref="C33" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="C19" pin="2"/>
+      <node ref="D5" pin="1"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C18" pin="2"/>
+      <node ref="U5" pin="2"/>
+      <node ref="Q3" pin="3"/>
+      <node ref="R2" pin="1"/>
+      <node ref="U6" pin="2"/>
+      <node ref="C20" pin="2"/>
+      <node ref="C21" pin="2"/>
+      <node ref="U7" pin="2"/>
+      <node ref="D13" pin="1"/>
+      <node ref="R60" pin="1"/>
+      <node ref="Q13" pin="3"/>
+      <node ref="U10" pin="2"/>
+      <node ref="D27" pin="1"/>
+      <node ref="R48" pin="1"/>
+      <node ref="R38" pin="1"/>
+      <node ref="D28" pin="1"/>
+      <node ref="Q14" pin="3"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="D45" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="R50" pin="1"/>
+      <node ref="D37" pin="1"/>
+      <node ref="D36" pin="1"/>
+      <node ref="Q16" pin="3"/>
+      <node ref="D26" pin="1"/>
+      <node ref="D44" pin="1"/>
+      <node ref="Q10" pin="3"/>
+      <node ref="R36" pin="1"/>
+      <node ref="D35" pin="1"/>
+      <node ref="Q15" pin="3"/>
+      <node ref="R58" pin="1"/>
+      <node ref="U16" pin="2"/>
+      <node ref="U17" pin="2"/>
+      <node ref="C28" pin="2"/>
+      <node ref="Q11" pin="3"/>
+      <node ref="C29" pin="2"/>
+      <node ref="Q12" pin="3"/>
+      <node ref="Q17" pin="3"/>
+      <node ref="C34" pin="2"/>
+      <node ref="R46" pin="1"/>
+      <node ref="R34" pin="1"/>
+      <node ref="C35" pin="2"/>
+      <node ref="C43" pin="2"/>
+      <node ref="C42" pin="2"/>
+      <node ref="C39" pin="2"/>
+      <node ref="C38" pin="2"/>
+      <node ref="C15" pin="1"/>
+      <node ref="U11" pin="2"/>
+      <node ref="U12" pin="2"/>
+      <node ref="C31" pin="2"/>
+      <node ref="C30" pin="2"/>
+      <node ref="C41" pin="2"/>
+      <node ref="C40" pin="2"/>
+      <node ref="U13" pin="2"/>
+      <node ref="C11" pin="1"/>
+      <node ref="U15" pin="2"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="U14" pin="2"/>
+      <node ref="C27" pin="2"/>
+      <node ref="C26" pin="2"/>
+      <node ref="Q7" pin="3"/>
+      <node ref="Q8" pin="3"/>
+      <node ref="C25" pin="2"/>
+      <node ref="R28" pin="1"/>
+      <node ref="U9" pin="2"/>
+      <node ref="D21" pin="1"/>
+      <node ref="H4" pin="1"/>
+      <node ref="D6" pin="1"/>
+      <node ref="H2" pin="1"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C46" pin="1"/>
+      <node ref="U4" pin="2"/>
+      <node ref="R26" pin="1"/>
+      <node ref="C24" pin="2"/>
+      <node ref="Q4" pin="3"/>
+      <node ref="D20" pin="1"/>
+      <node ref="C51" pin="1"/>
+      <node ref="Q6" pin="3"/>
+      <node ref="Q5" pin="3"/>
+      <node ref="R14" pin="1"/>
+      <node ref="C50" pin="1"/>
+      <node ref="D11" pin="1"/>
+      <node ref="D12" pin="1"/>
+      <node ref="U8" pin="2"/>
+      <node ref="R16" pin="1"/>
+      <node ref="C45" pin="1"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="C49" pin="1"/>
+      <node ref="C47" pin="1"/>
+      <node ref="C44" pin="1"/>
+      <node ref="C48" pin="1"/>
+      <node ref="R18" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="J1" pin="20"/>
+      <node ref="J1" pin="18"/>
+      <node ref="C1" pin="2"/>
+      <node ref="R8" pin="1"/>
+      <node ref="C53" pin="2"/>
+      <node ref="R6" pin="1"/>
+      <node ref="U2" pin="2"/>
+      <node ref="C55" pin="2"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="D1" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="U1" pin="3"/>
+      <node ref="C52" pin="2"/>
+      <node ref="U1" pin="5"/>
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="14" name="OUT_11">
+      <node ref="D46" pin="2"/>
+      <node ref="Q15" pin="2"/>
+      <node ref="J9" pin="11"/>
+    </net>
+    <net code="15" name="OUT_12">
+      <node ref="J9" pin="9"/>
+      <node ref="Q10" pin="2"/>
+      <node ref="D30" pin="2"/>
+    </net>
+    <net code="16" name="OUT_13">
+      <node ref="J9" pin="7"/>
+      <node ref="Q13" pin="2"/>
+      <node ref="D39" pin="2"/>
+    </net>
+    <net code="17" name="Net-(D1-Pad1)">
+      <node ref="U1" pin="2"/>
+      <node ref="D1" pin="1"/>
+      <node ref="L1" pin="1"/>
+    </net>
+    <net code="18" name="OUT_9">
+      <node ref="D29" pin="2"/>
+      <node ref="J9" pin="15"/>
+      <node ref="Q17" pin="2"/>
+    </net>
+    <net code="19" name="OUT_10">
+      <node ref="Q12" pin="2"/>
+      <node ref="J9" pin="13"/>
+      <node ref="D38" pin="2"/>
+    </net>
+    <net code="20" name="+12V">
+      <node ref="C42" pin="1"/>
+      <node ref="C38" pin="1"/>
+      <node ref="U15" pin="5"/>
+      <node ref="C24" pin="1"/>
+      <node ref="C25" pin="1"/>
+      <node ref="C39" pin="1"/>
+      <node ref="U1" pin="4"/>
+      <node ref="C41" pin="1"/>
+      <node ref="L1" pin="2"/>
+      <node ref="C3" pin="1"/>
+      <node ref="U12" pin="5"/>
+      <node ref="C40" pin="1"/>
+      <node ref="C43" pin="1"/>
+      <node ref="U11" pin="5"/>
+      <node ref="U9" pin="5"/>
+      <node ref="C34" pin="1"/>
+      <node ref="C28" pin="1"/>
+      <node ref="C29" pin="1"/>
+      <node ref="U16" pin="5"/>
+      <node ref="U14" pin="5"/>
+      <node ref="U17" pin="5"/>
+      <node ref="U13" pin="5"/>
+      <node ref="C26" pin="1"/>
+      <node ref="C27" pin="1"/>
+      <node ref="U8" pin="5"/>
+      <node ref="U10" pin="5"/>
+      <node ref="C35" pin="1"/>
+      <node ref="U3" pin="5"/>
+      <node ref="C14" pin="1"/>
+      <node ref="U5" pin="5"/>
+      <node ref="C36" pin="1"/>
+      <node ref="C37" pin="1"/>
+      <node ref="C33" pin="1"/>
+      <node ref="C20" pin="1"/>
+      <node ref="C32" pin="1"/>
+      <node ref="C23" pin="1"/>
+      <node ref="C19" pin="1"/>
+      <node ref="C18" pin="1"/>
+      <node ref="C22" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="U7" pin="5"/>
+      <node ref="C13" pin="1"/>
+      <node ref="C16" pin="1"/>
+      <node ref="C31" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="U2" pin="5"/>
+      <node ref="C17" pin="1"/>
+      <node ref="U4" pin="5"/>
+      <node ref="C21" pin="1"/>
+      <node ref="U6" pin="5"/>
+      <node ref="C30" pin="1"/>
+    </net>
+    <net code="21" name="Net-(J1-Pad17)">
+      <node ref="J1" pin="17"/>
+    </net>
+    <net code="22" name="Net-(J1-Pad19)">
+      <node ref="J1" pin="19"/>
+    </net>
+    <net code="23" name="IN7">
+      <node ref="R67" pin="2"/>
+      <node ref="R7" pin="2"/>
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="24" name="IN15">
+      <node ref="R37" pin="2"/>
+      <node ref="R75" pin="2"/>
+      <node ref="J1" pin="14"/>
+    </net>
+    <net code="25" name="IN14">
+      <node ref="R80" pin="2"/>
+      <node ref="J1" pin="12"/>
+      <node ref="R59" pin="2"/>
+    </net>
+    <net code="26" name="IN13">
+      <node ref="J1" pin="10"/>
+      <node ref="R47" pin="2"/>
+      <node ref="R77" pin="2"/>
+    </net>
+    <net code="27" name="IN12">
+      <node ref="J1" pin="8"/>
+      <node ref="R35" pin="2"/>
+      <node ref="R74" pin="2"/>
+    </net>
+    <net code="28" name="IN11">
+      <node ref="R57" pin="2"/>
+      <node ref="R79" pin="2"/>
+      <node ref="J1" pin="6"/>
+    </net>
+    <net code="29" name="IN10">
+      <node ref="R45" pin="2"/>
+      <node ref="J1" pin="4"/>
+      <node ref="R76" pin="2"/>
+    </net>
+    <net code="30" name="IN9">
+      <node ref="R33" pin="2"/>
+      <node ref="J1" pin="2"/>
+      <node ref="R73" pin="2"/>
+    </net>
+    <net code="31" name="IN8">
+      <node ref="R17" pin="2"/>
+      <node ref="J1" pin="1"/>
+      <node ref="R70" pin="2"/>
+    </net>
+    <net code="32" name="IN6">
+      <node ref="R72" pin="2"/>
+      <node ref="R27" pin="2"/>
+      <node ref="J1" pin="5"/>
+    </net>
+    <net code="33" name="IN5">
+      <node ref="R69" pin="2"/>
+      <node ref="J1" pin="7"/>
+      <node ref="R15" pin="2"/>
+    </net>
+    <net code="34" name="IN3">
+      <node ref="J1" pin="11"/>
+      <node ref="R25" pin="2"/>
+      <node ref="R71" pin="2"/>
+    </net>
+    <net code="35" name="IN2">
+      <node ref="R13" pin="2"/>
+      <node ref="R68" pin="2"/>
+      <node ref="J1" pin="13"/>
+    </net>
+    <net code="36" name="IN1">
+      <node ref="R1" pin="2"/>
+      <node ref="R65" pin="2"/>
+      <node ref="J1" pin="15"/>
+    </net>
+    <net code="37" name="IN4">
+      <node ref="R5" pin="2"/>
+      <node ref="R66" pin="2"/>
+      <node ref="J1" pin="9"/>
+    </net>
+    <net code="38" name="IN16">
+      <node ref="J1" pin="16"/>
+      <node ref="R49" pin="2"/>
+      <node ref="R78" pin="2"/>
+    </net>
+    <net code="39" name="Net-(D21-Pad2)">
+      <node ref="D21" pin="2"/>
+      <node ref="R72" pin="1"/>
+    </net>
+    <net code="40" name="Net-(R29-Pad1)">
+      <node ref="U8" pin="4"/>
+      <node ref="R29" pin="1"/>
+    </net>
+    <net code="41" name="Net-(R25-Pad1)">
+      <node ref="R25" pin="1"/>
+      <node ref="R26" pin="2"/>
+      <node ref="U8" pin="3"/>
+    </net>
+    <net code="42" name="Net-(R27-Pad1)">
+      <node ref="U9" pin="3"/>
+      <node ref="R27" pin="1"/>
+      <node ref="R28" pin="2"/>
+    </net>
+    <net code="43" name="Net-(R30-Pad1)">
+      <node ref="R30" pin="1"/>
+      <node ref="U9" pin="4"/>
+    </net>
+    <net code="44" name="Net-(U9-Pad1)">
+      <node ref="U9" pin="1"/>
+    </net>
+    <net code="45" name="Net-(U8-Pad1)">
+      <node ref="U8" pin="1"/>
+    </net>
+    <net code="46" name="Net-(D12-Pad2)">
+      <node ref="D12" pin="2"/>
+      <node ref="R69" pin="1"/>
+    </net>
+    <net code="47" name="Net-(Q5-Pad1)">
+      <node ref="R20" pin="2"/>
+      <node ref="Q5" pin="1"/>
+    </net>
+    <net code="48" name="Net-(R20-Pad1)">
+      <node ref="R20" pin="1"/>
+      <node ref="U5" pin="4"/>
+    </net>
+    <net code="49" name="Net-(Q6-Pad1)">
+      <node ref="R21" pin="2"/>
+      <node ref="Q6" pin="1"/>
+    </net>
+    <net code="50" name="Net-(R21-Pad1)">
+      <node ref="R21" pin="1"/>
+      <node ref="U7" pin="4"/>
+    </net>
+    <net code="51" name="Net-(Q4-Pad1)">
+      <node ref="R19" pin="2"/>
+      <node ref="Q4" pin="1"/>
+    </net>
+    <net code="52" name="Net-(D20-Pad2)">
+      <node ref="R71" pin="1"/>
+      <node ref="D20" pin="2"/>
+    </net>
+    <net code="53" name="Net-(D11-Pad2)">
+      <node ref="R68" pin="1"/>
+      <node ref="D11" pin="2"/>
+    </net>
+    <net code="54" name="Net-(R13-Pad1)">
+      <node ref="R14" pin="2"/>
+      <node ref="R13" pin="1"/>
+      <node ref="U6" pin="3"/>
+    </net>
+    <net code="55" name="Net-(R19-Pad1)">
+      <node ref="R19" pin="1"/>
+      <node ref="U6" pin="4"/>
+    </net>
+    <net code="56" name="Net-(Q7-Pad1)">
+      <node ref="R29" pin="2"/>
+      <node ref="Q7" pin="1"/>
+    </net>
+    <net code="57" name="Net-(Q8-Pad1)">
+      <node ref="R30" pin="2"/>
+      <node ref="Q8" pin="1"/>
+    </net>
+    <net code="58" name="Net-(R9-Pad1)">
+      <node ref="R9" pin="1"/>
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="59" name="Net-(U4-Pad1)">
+      <node ref="U4" pin="1"/>
+    </net>
+    <net code="60" name="Net-(R3-Pad1)">
+      <node ref="U4" pin="4"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="61" name="Net-(D6-Pad2)">
+      <node ref="D6" pin="2"/>
+      <node ref="R67" pin="1"/>
+    </net>
+    <net code="62" name="Net-(R7-Pad1)">
+      <node ref="U3" pin="3"/>
+      <node ref="R7" pin="1"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="63" name="Net-(U3-Pad1)">
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="64" name="Net-(R10-Pad1)">
+      <node ref="U3" pin="4"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="65" name="Net-(U2-Pad1)">
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="66" name="Net-(R5-Pad1)">
+      <node ref="R5" pin="1"/>
+      <node ref="U2" pin="3"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="67" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="68" name="Net-(D2-Pad2)">
+      <node ref="R65" pin="1"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="69" name="Net-(Q2-Pad1)">
+      <node ref="Q2" pin="1"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="70" name="Net-(D5-Pad2)">
+      <node ref="D5" pin="2"/>
+      <node ref="R66" pin="1"/>
+    </net>
+    <net code="71" name="Net-(D13-Pad2)">
+      <node ref="D13" pin="2"/>
+      <node ref="R70" pin="1"/>
+    </net>
+    <net code="72" name="Net-(U6-Pad1)">
+      <node ref="U6" pin="1"/>
+    </net>
+    <net code="73" name="Net-(R17-Pad1)">
+      <node ref="R18" pin="2"/>
+      <node ref="U7" pin="3"/>
+      <node ref="R17" pin="1"/>
+    </net>
+    <net code="74" name="Net-(U7-Pad1)">
+      <node ref="U7" pin="1"/>
+    </net>
+    <net code="75" name="Net-(R15-Pad1)">
+      <node ref="U5" pin="3"/>
+      <node ref="R15" pin="1"/>
+      <node ref="R16" pin="2"/>
+    </net>
+    <net code="76" name="Net-(U5-Pad1)">
+      <node ref="U5" pin="1"/>
+    </net>
+    <net code="77" name="Net-(Q3-Pad1)">
+      <node ref="R3" pin="2"/>
+      <node ref="Q3" pin="1"/>
+    </net>
+    <net code="78" name="Net-(R1-Pad1)">
+      <node ref="R1" pin="1"/>
+      <node ref="R2" pin="2"/>
+      <node ref="U4" pin="3"/>
+    </net>
+    <net code="79" name="Net-(D26-Pad2)">
+      <node ref="D26" pin="2"/>
+      <node ref="R73" pin="1"/>
+    </net>
+    <net code="80" name="Net-(D28-Pad2)">
+      <node ref="R75" pin="1"/>
+      <node ref="D28" pin="2"/>
+    </net>
+    <net code="81" name="Net-(D36-Pad2)">
+      <node ref="D36" pin="2"/>
+      <node ref="R77" pin="1"/>
+    </net>
+    <net code="82" name="Net-(Q16-Pad1)">
+      <node ref="Q16" pin="1"/>
+      <node ref="R62" pin="2"/>
+    </net>
+    <net code="83" name="Net-(D27-Pad2)">
+      <node ref="D27" pin="2"/>
+      <node ref="R74" pin="1"/>
+    </net>
+    <net code="84" name="Net-(R52-Pad1)">
+      <node ref="R52" pin="1"/>
+      <node ref="U14" pin="4"/>
+    </net>
+    <net code="85" name="Net-(Q13-Pad1)">
+      <node ref="Q13" pin="1"/>
+      <node ref="R52" pin="2"/>
+    </net>
+    <net code="86" name="Net-(R47-Pad1)">
+      <node ref="R48" pin="2"/>
+      <node ref="R47" pin="1"/>
+      <node ref="U14" pin="3"/>
+    </net>
+    <net code="87" name="Net-(Q11-Pad1)">
+      <node ref="Q11" pin="1"/>
+      <node ref="R41" pin="2"/>
+    </net>
+    <net code="88" name="Net-(R53-Pad1)">
+      <node ref="U15" pin="4"/>
+      <node ref="R53" pin="1"/>
+    </net>
+    <net code="89" name="Net-(D45-Pad2)">
+      <node ref="R80" pin="1"/>
+      <node ref="D45" pin="2"/>
+    </net>
+    <net code="90" name="Net-(R41-Pad1)">
+      <node ref="U12" pin="4"/>
+      <node ref="R41" pin="1"/>
+    </net>
+    <net code="91" name="Net-(R51-Pad1)">
+      <node ref="U13" pin="4"/>
+      <node ref="R51" pin="1"/>
+    </net>
+    <net code="92" name="Net-(Q12-Pad1)">
+      <node ref="R51" pin="2"/>
+      <node ref="Q12" pin="1"/>
+    </net>
+    <net code="93" name="Net-(R39-Pad1)">
+      <node ref="R39" pin="1"/>
+      <node ref="U10" pin="4"/>
+    </net>
+    <net code="94" name="Net-(Q17-Pad1)">
+      <node ref="R39" pin="2"/>
+      <node ref="Q17" pin="1"/>
+    </net>
+    <net code="95" name="Net-(D44-Pad2)">
+      <node ref="R79" pin="1"/>
+      <node ref="D44" pin="2"/>
+    </net>
+    <net code="96" name="Net-(R40-Pad1)">
+      <node ref="R40" pin="1"/>
+      <node ref="U11" pin="4"/>
+    </net>
+    <net code="97" name="Net-(Q10-Pad1)">
+      <node ref="Q10" pin="1"/>
+      <node ref="R40" pin="2"/>
+    </net>
+    <net code="98" name="Net-(D35-Pad2)">
+      <node ref="D35" pin="2"/>
+      <node ref="R76" pin="1"/>
+    </net>
+    <net code="99" name="Net-(Q14-Pad1)">
+      <node ref="R53" pin="2"/>
+      <node ref="Q14" pin="1"/>
+    </net>
+    <net code="100" name="Net-(Q15-Pad1)">
+      <node ref="Q15" pin="1"/>
+      <node ref="R61" pin="2"/>
+    </net>
+    <net code="101" name="Net-(R35-Pad1)">
+      <node ref="U11" pin="3"/>
+      <node ref="R35" pin="1"/>
+      <node ref="R36" pin="2"/>
+    </net>
+    <net code="102" name="Net-(R37-Pad1)">
+      <node ref="R38" pin="2"/>
+      <node ref="U12" pin="3"/>
+      <node ref="R37" pin="1"/>
+    </net>
+    <net code="103" name="Net-(R49-Pad1)">
+      <node ref="U15" pin="3"/>
+      <node ref="R49" pin="1"/>
+      <node ref="R50" pin="2"/>
+    </net>
+    <net code="104" name="Net-(R45-Pad1)">
+      <node ref="R46" pin="2"/>
+      <node ref="R45" pin="1"/>
+      <node ref="U13" pin="3"/>
+    </net>
+    <net code="105" name="Net-(R57-Pad1)">
+      <node ref="R57" pin="1"/>
+      <node ref="R58" pin="2"/>
+      <node ref="U16" pin="3"/>
+    </net>
+    <net code="106" name="Net-(U16-Pad1)">
+      <node ref="U16" pin="1"/>
+    </net>
+    <net code="107" name="Net-(R61-Pad1)">
+      <node ref="U16" pin="4"/>
+      <node ref="R61" pin="1"/>
+    </net>
+    <net code="108" name="Net-(U17-Pad1)">
+      <node ref="U17" pin="1"/>
+    </net>
+    <net code="109" name="Net-(R59-Pad1)">
+      <node ref="U17" pin="3"/>
+      <node ref="R59" pin="1"/>
+      <node ref="R60" pin="2"/>
+    </net>
+    <net code="110" name="Net-(R62-Pad1)">
+      <node ref="R62" pin="1"/>
+      <node ref="U17" pin="4"/>
+    </net>
+    <net code="111" name="Net-(R33-Pad1)">
+      <node ref="U10" pin="3"/>
+      <node ref="R34" pin="2"/>
+      <node ref="R33" pin="1"/>
+    </net>
+    <net code="112" name="Net-(U10-Pad1)">
+      <node ref="U10" pin="1"/>
+    </net>
+    <net code="113" name="Net-(D37-Pad2)">
+      <node ref="R78" pin="1"/>
+      <node ref="D37" pin="2"/>
+    </net>
+    <net code="114" name="Net-(U14-Pad1)">
+      <node ref="U14" pin="1"/>
+    </net>
+    <net code="115" name="Net-(U13-Pad1)">
+      <node ref="U13" pin="1"/>
+    </net>
+    <net code="116" name="Net-(U15-Pad1)">
+      <node ref="U15" pin="1"/>
+    </net>
+    <net code="117" name="Net-(U11-Pad1)">
+      <node ref="U11" pin="1"/>
+    </net>
+    <net code="118" name="Net-(U12-Pad1)">
+      <node ref="U12" pin="1"/>
+    </net>
+  </nets>
+</export>
