@@ -1,0 +1,10 @@
+Leiterplattenname: Magnetsteuerung_v2.1
+Abmessungen(LxB): 92.1 mm x 100.1 mm
+Material: FR4
+Lagen: 2
+Dicke: 1.6 mm
+Cu-Finish Dicke: 1OZ (35UM)
+Oberfläche: HASL
+Lötstopp: GREEN
+Positionsdruck: WHITE
+Positionsdrucklayer: Eco2.User (nur Top Layer)

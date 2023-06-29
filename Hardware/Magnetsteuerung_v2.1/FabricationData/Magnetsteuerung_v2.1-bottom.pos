@@ -1,0 +1,8 @@
+### Footprint positions - created on Thu Jun 29 16:09:16 2023 ###
+### Printed by KiCad version 7.0.1
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val         Package                                                          PosX       PosY       Rot  Side
+J3        Conn_01x16  PhoenixContact_MSTBA_2,5_16-G-5,08_1x16_P5.08mm_Horizontal    91.9000   -42.9000  -90.0000  bottom
+J9        Conn_01x16  PhoenixContact_MSTBA_2,5_16-G-5,08_1x16_P5.08mm_Horizontal   178.1000  -119.1000   90.0000  bottom
+## End
