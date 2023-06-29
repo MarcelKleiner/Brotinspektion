@@ -1,0 +1,65 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid e6da3432-9598-477f-91ba-d9698718fc7b)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 29.21 31.75) (size 66.04 35.56) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-0000602a7ddc)
+    (property "Sheetname" "Speisung" (at 29.21 31.0384 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Speisung.kicad_sch" (at 29.21 67.8946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Magnetsteuerung_v2.1"
+        (path "/e6da3432-9598-477f-91ba-d9698718fc7b" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 107.95 31.75) (size 64.77 35.56) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-0000602a90b4)
+    (property "Sheetname" "OUT_1-8" (at 107.95 31.0384 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "OUT_1-8.kicad_sch" (at 107.95 67.8946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Magnetsteuerung_v2.1"
+        (path "/e6da3432-9598-477f-91ba-d9698718fc7b" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 187.96 31.75) (size 59.69 35.56) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-0000602aa37e)
+    (property "Sheetname" "OUT_8-16" (at 187.96 31.0384 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "OUT_8-16.kicad_sch" (at 187.96 67.8946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Magnetsteuerung_v2.1"
+        (path "/e6da3432-9598-477f-91ba-d9698718fc7b" (page "4"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
